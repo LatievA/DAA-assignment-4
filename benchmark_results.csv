@@ -1,0 +1,11 @@
+Dataset,Nodes,Edges,Density,HasCycles,SCC_Time_Nanos,SCC_DFS_Visits,SCC_Edges_Explored,SCC_Stack_Pops,Num_SCCs,Topo_Time_Nanos,Topo_Queue_Pushes,Topo_Queue_Pops,Topo_Edges_Processed,Topo_Success,DAGSP_Time_Nanos,DAGSP_Relaxations,DAGSP_Updates,Critical_Path_Length
+large_dag_1.json,50,108,0,0441,false,46600,50,108,50,50,23600,50,50,108,true,11800,4,4,8
+large_mixed_1.json,35,297,0,2496,true,45600,35,297,35,1,1500,1,1,0,true,1500,0,0,0
+large_sparse_1.json,25,90,0,1500,true,23500,25,90,25,1,1100,1,1,0,true,3900,0,0,0
+medium_dag_1.json,18,29,0,0948,false,20000,18,29,18,18,9500,18,18,29,true,10000,11,9,17
+medium_mixed_1.json,12,39,0,2955,true,16300,12,39,12,1,1300,1,1,0,true,1400,0,0,0
+medium_mixed_2.json,15,73,0,3476,true,19800,15,73,15,1,1900,1,1,0,true,1500,0,0,0
+small_cycle_1.json,8,22,0,3929,true,9800,8,22,8,1,1600,1,1,0,true,1300,0,0,0
+small_dag_1.json,6,4,0,1333,false,9500,6,4,6,6,3700,6,6,4,true,4400,2,2,10
+small_dag_2.json,10,14,0,1556,false,11600,10,14,10,10,4700,10,10,14,true,29700,14,14,50
+tasks.json,8,7,0,1250,true,9500,8,7,8,6,2800,6,6,4,true,4900,3,3,8
